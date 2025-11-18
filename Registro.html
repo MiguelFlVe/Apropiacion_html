@@ -39,18 +39,38 @@
           </label>
         </div>
         <div>
-          <label for="Gustos">Gustos
-            <textarea maxlength="500" required></textarea>
+          <label for="Ciudad">Ciudad
+            <select id="Ciudad" required>
+              <option value=""></option>
+              <option value="">Bucaramanga</option>
+              <option value="">Floridablanca</option>
+              <option value="">Girón</option>
+              <option value="">Piedecuesta</option>
+            </select>
           </label>
         </div>
         <div>
-          <label for="Género">Género
-            <select required>
-              <option value=""></option>
-              <option value="">Hombre</option>
-              <option value="">Mujer</option>
-              <option value="">Prefiero no responder</option>
-            </select>
+          <label for="">Gustos:
+            <label for="Programar">Programar
+              <input type="checkbox" id="Programar">
+            </label>
+            <label for="Estudiar">Estudiar
+              <input type="checkbox" id="Estudiar">
+            </label>
+            <label for="Música">Música
+              <input type="checkbox" id="Música">
+            </label>
+          </label>
+        </div>
+        <div>
+          <label for="Hombre">Hombre
+            <input type="radio" id="Hombre" name="Género">
+          </label>
+          <label for="Mujer">Mujer
+            <input type="radio" id="Mujer" name="Género">
+          </label>
+          <label for="Otro">Otro
+            <input type="radio" id="Otro" name="Género">
           </label>
         </div>
         <div>
