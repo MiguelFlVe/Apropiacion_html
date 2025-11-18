@@ -16,11 +16,16 @@
 
   <main>
     <fieldset>
-      <legend>Formulario de contacto</legend>
-      <form action="Datos_Recibidos_Contacto.html" method="post">
+      <legend>Formulario de registro</legend>
+      <form action="Datos_Recibidos_Registro.html" method="post">
         <div>
           <label for="Nombre">Nombre 
             <input type="text" id="Nombre" required>
+          </label>
+        </div>
+        <div>
+          <label for="Apellidos">Apellidos 
+            <input type="text" id="Apellidos" required>
           </label>
         </div>
         <div>
@@ -29,13 +34,23 @@
           </label>
         </div>
         <div>
-          <label for="Asunto">Asunto 
-            <input type="text" id="Asunto" required>
+          <label for="Dirección">Dirección 
+            <input type="text" id="Dirección" required>
           </label>
         </div>
         <div>
-          <label for="Mensaje">Mensaje 
+          <label for="Gustos">Gustos
             <textarea maxlength="500" required></textarea>
+          </label>
+        </div>
+        <div>
+          <label for="Género">Género
+            <select required>
+              <option value=""></option>
+              <option value="">Hombre</option>
+              <option value="">Mujer</option>
+              <option value="">Prefiero no responder</option>
+            </select>
           </label>
         </div>
         <div>
